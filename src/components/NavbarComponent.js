@@ -17,22 +17,22 @@ const NavbarComponent = () => {
           <div className="flex items-center gap-4">
             <div className="hidden mr-4 lg:block">
               <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-                <li className="block p-1 font-sans text-sm antialiased font-normal leading-normal text-white">
+              <li className="block p-1 font-sans text-sm antialiased font-normal leading-normal text-white hover:bg-pink-100 hover:text-pink-500">
                   <Link href="/dashboard" className="flex items-center font-bold">
                   Home
                   </Link>
                 </li>
-                <li className="block p-1 font-sans text-sm antialiased font-normal leading-normal text-white">
+                <li className="block p-1 font-sans text-sm antialiased font-normal leading-normal text-white hover:bg-pink-100 hover:text-pink-500">
                   <Link href="/products" className="flex items-center font-bold">
                   Popular
                   </Link>
                 </li>
-                <li className="block p-1 font-sans text-sm antialiased font-normal leading-normal text-white">
+                <li className="block p-1 font-sans text-sm antialiased font-normal leading-normal text-white hover:bg-pink-100 hover:text-pink-500">
                   <Link href="/blog" className="flex items-center font-bold">
                   Romance
                   </Link>
                 </li>
-                <li className="block p-1 font-sans text-sm antialiased font-normal leading-normal text-white">
+                <li className="block p-1 font-sans text-sm antialiased font-normal leading-normal text-white hover:bg-pink-100 hover:text-pink-500">
                   <Link href="/setting" className="flex items-center font-bold">
                   Anime
                   </Link>

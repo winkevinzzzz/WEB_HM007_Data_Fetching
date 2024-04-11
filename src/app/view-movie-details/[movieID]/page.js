@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar'
 import { getMovieID } from '@/services/moives.service';
 import React from 'react'
-import { FaStar } from "react-icons/fa6";
+import { FaStar } from "react-icons/fa";
 import { CiStar } from "react-icons/ci";
 
 
